@@ -1,0 +1,16 @@
+CHEATSHEET GIT GITHUB
+git init =Inicializa un repositorio git 
+git config = Establece valores de configuración para tu usuario, email, gpg key, algoritmo diff preferido, formatos de archivo y más
+git clone = Crea una copia de repositorio GIT de una fuente externa
+git add = Añade cambios de archivos en tu directorio de ensayo a tu index
+git rm = Elimina archivos de tu index y de tu directorio de ensayo para que no se rastreen
+git commit = Toma todos los cambios escritos en el index, crea un nuevo objeto de confirmación que apunta a él y establece la rama para que apunte a esa nueva confirmación
+git status = Te muestra el estado de los archivos en el index en comparación con los del directorio de trabajo
+git branch = Para listar las ramas existentes, incluyendo las ramas remotas, si se proporciona ‘-a’. Crea una nueva rama si se proporciona un nombre
+git merge = Fusiona una o más ramas con otra rama activa y crea automáticamente un nuevo commit si no hay conflictos
+git reset = Resetea tu index y directorio de trabajo al último estado comprometido
+git pull = Obtiene los archivos del repositorio remoto y los combina con el local
+git push = Envía todos los objetos modificados localmente al repositorio remoto
+git remote = Muestra todas las versiones remotas de tu repositorio
+git log = Muestra una lista de confirmaciones en una rama que incluye los detalles correspondientes
+git checkout = Se utiliza para cambiar de ramas
