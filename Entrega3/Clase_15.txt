@@ -1,0 +1,32 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?
+
+Un lenguaje de programación puede estar limitado a ciertos sistemas operativos debido a varias razones:
+Diseño y compatibilidad: Algunos lenguajes de programación están diseñados específicamente para funcionar en un entorno particular. 
+Máquina virtual: Algunos lenguajes de programación se ejecutan en una máquina virtual específica que actúa como una capa de abstracción entre el lenguaje y el sistema operativo subyacente. 
+Compiladores e intérpretes: Los lenguajes de programación a menudo requieren compiladores o intérpretes para traducir el código fuente a un formato ejecutable. 
+Dependencias y bibliotecas: Los lenguajes de programación pueden depender de bibliotecas externas o módulos que están disponibles solo en ciertos sistemas operativos. cd
+Políticas y restricciones: Algunos sistemas operativos pueden tener políticas o restricciones específicas sobre los lenguajes de programación que se permiten ejecutar en ellos.
+
+¿Qué tipo de máquina virtual es virtualBox?
+
+VirtualBox es un software de virtualización de código abierto desarrollado por Oracle. Proporciona una máquina virtual en la cual es posible ejecutar otros sistemas operativos dentro del sistema operativo principal de la máquina física.
+
+VirtualBox es considerado una máquina virtual de tipo 2, también conocida como máquina virtual de nivel de software. Esto significa que se instala como una aplicación en el sistema operativo principal y se ejecuta como un proceso, brindando una capa de abstracción que permite ejecutar otros sistemas operativos dentro de él.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+
+Una máquina virtual se rompe o experimenta un problema, esto no debería afectar directamente a las demás máquinas virtuales instaladas en el mismo sistema de virtualización. Cada máquina virtual está aislada y funciona de manera independiente.
+
+Sin embargo, existen algunas situaciones en las que un problema en una máquina virtual puede tener repercusiones en otras:
+
+Recursos compartidos: Si las máquinas virtuales comparten recursos específicos, como el almacenamiento o la red, un problema en uno de los recursos compartidos podría afectar a otras máquinas virtuales que dependen de ellos. Por ejemplo, si una máquina virtual corrompe o consume demasiados recursos de almacenamiento compartido, podría afectar a otras máquinas virtuales que también utilizan ese almacenamiento.
+
+Rendimiento general: Si una máquina virtual tiene un alto consumo de recursos del sistema, como CPU o memoria, puede afectar al rendimiento general del sistema operativo host y, por lo tanto, a todas las máquinas virtuales que se están ejecutando en él. En este caso, las demás máquinas virtuales podrían experimentar una disminución en el rendimiento debido a la falta de recursos disponibles.
+
+Errores en el software de virtualización: Si hay un error en el software de virtualización en sí, esto podría afectar a todas las máquinas virtuales en el sistema. Sin embargo, los proveedores de software de virtualización generalmente se esfuerzan por garantizar la estabilidad y el aislamiento adecuado entre las máquinas virtuales.
+
+
+
+
