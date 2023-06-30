@@ -1,8 +1,2 @@
-
-
-
-
-
-
-
 "Hola me conecte por Telnet"
+"Hola, me conecté por SSH"
